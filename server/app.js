@@ -1,17 +1,10 @@
-
 import createError from 'http-errors';
-
 import express from 'express';
-
 import path from 'path';
-
 import cookieParser from 'cookie-parser';
-
-import logger, { compile } from 'morgan';
-
+import logger from 'morgan';
 
 import indexRouter from '@s-routes/index';
-
 import usersRouter from '@s-routes/users';
 
 //importar modulos de webpack
